@@ -264,6 +264,9 @@ a {
 }
 
 /* section3  */
+.section3 {
+  margin: 0 auto;
+}
 .section3-title {
   color: rgb(255, 255, 255);
   font-family: Inter;
@@ -279,23 +282,112 @@ a {
   font-weight: 400;
   line-height: 24px;
 }
-.section3-img-container{
+
+.section3-img-container {
   display: grid;
   justify-content: space-evenly;
   align-items: center;
   gap: 4px;
-  grid-template-columns: repeat(3,1fr);
-  
-  
+  grid-template-columns: repeat(3, 1fr);
+
+
 }
-.section3-img{
+
+.section3-img {
   width: 400px;
   height: 218px;
 }
-.img2{
-   background: rgba(202, 3, 3, 0.3);
-   height: 256px;
+
+.img2 {
+  background: rgba(202, 3, 3, 0.3);
+  height: 256px;
 }
-.img4{
+
+.img4 {
   height: 240px;
+}
+
+.bmi-conatainer {
+  margin-top: 65px;
+}
+
+.section2-bmi {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.section3-bmi-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* bmi section */
+.bmi-calculator {
+  display: flex;
+  background: rgb(34, 34, 34);
+}
+
+.table {
+  display: table;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.table-tr {
+  display: table-row;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+td {
+  display: table-cell;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 24px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: .9 rem;
+  font-weight: 400;
+
+}
+
+th {
+  background: rgb(34, 34, 34);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 24px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 120%;
+
+}
+
+.table {
+  border-collapse: collapse;
+
+}
+.bmi-calculator{
+  margin: 0 auto;
+}
+.bmi-calculator-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 200px;
+  padding: 190px; */
+}
+.form{
+  display: grid;
+  justify-content: end;
+  /* width:50% ; */
+  text-align: right;
+
+}
+.bmi-form-title{
+  /* text-align: right; */
 }
