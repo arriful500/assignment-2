@@ -1,7 +1,8 @@
-/* * {
+* {
   padding: 0;
   margin: 0;
-} */
+  box-sizing: border-box;
+}
 
 body {
   /* background: linear-gradient(180.00deg, rgba(13, 0, 0, 0.829), rgba(18, 18, 18, 0) 100%); */
@@ -386,6 +387,7 @@ th {
   justify-content: end;
   /* width:50% ; */
   text-align: right;
+  grid-template-columns: repeat(2,1fr);
 
 }
 .bmi-form-title{
